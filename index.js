@@ -82,7 +82,7 @@ function Ordenar() {
 function DarPiezas() {
     let tr = document.getElementById("primera")
     vidas = []
-    celda = []
+    chacales = []
     Aaru.chacales = 0
     Aaru.vidas = 0
     for (const td of tr.children) {
