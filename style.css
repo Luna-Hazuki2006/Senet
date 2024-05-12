@@ -1,0 +1,77 @@
+h1, h2, p {
+    text-align: center;
+}
+
+td, table {
+    border: 1px solid black;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+td:hover {
+    background-color: cadetblue;
+}
+
+button {
+    font-size: xx-large;
+}
+
+div {
+    text-align: center;
+}
+
+div button {
+    font-size: medium;
+}
+
+.rio {
+    background-image: url("assets/rio.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.escarabajo {
+    background-image: url("assets/escarabajo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.pajaro {
+    background-image: url("assets/pajaro.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.halcon {
+    background-image: url("assets/seker.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.corona {
+    background-image: url("assets/corona.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.estanque {
+    background-color: darkkhaki;
+}
+
+.continua {
+    background-color: green;
+}
+
+.parado {
+    background-color: red;
+}
