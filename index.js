@@ -126,7 +126,7 @@ function DarLugares() {
         numero.classList.add('parado')
         ganadores.innerHTML = ''
     }
-    ganadores.innerHTML = 'Chaquales en el Aaru: ' + Aaru.chacales + '<br>'
+    ganadores.innerHTML = 'Chacales en el Aaru: ' + Aaru.chacales + '<br>'
     ganadores.innerHTML += 'Vidas en el Aaru: ' + Aaru.vidas
     if (actual == grupos[1] && movida) {
         for (const este of vidas) {
