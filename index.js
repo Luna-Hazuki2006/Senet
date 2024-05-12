@@ -107,6 +107,7 @@ function DarPiezas() {
     turno.innerText = 'Turno: ' + actual
     movida = true
     let numero = document.getElementById('numero')
+    numero.innerText = ''
     numero.classList.add('continua')
     numero.classList.remove('parado')
     DarLugares()
